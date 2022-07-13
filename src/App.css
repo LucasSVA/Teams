@@ -4,14 +4,19 @@
 }
 
 .counter-box {
-    width: 34vw;
+    width: 36vw;
     height: 20vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 6vh auto;
-    border: solid 5px #9ebae6;
-    background-color: #f7f9fc;
+    left: 50%;
+    margin-left: -18vw;
+    position: fixed;
+    border: 2px solid #929fb3;
+    border-radius: 10%;
+
+
 
 
 }
@@ -87,6 +92,8 @@ li {
     .counter-box {
 
         width: 60vw;
+        left: 50%;
+        margin-left: -30vw;
     }
 
     .team {
@@ -116,8 +123,9 @@ li {
 
 
     .counter-box {
-        width: 80vw;
-
+        width: 70vw;
+        left: 50%;
+        margin-left: -35vw;
     }
 
     h5 {
@@ -152,6 +160,10 @@ li {
     .counter-box {
         width: 90vw;
         height: 15vh;
+        left: 50%;
+        margin-left: -45vw;
+
+        position: fixed;
 
     }
 
