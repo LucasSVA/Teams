@@ -5,7 +5,7 @@ class TeamInfo extends React.Component {
             <div className="team">
                 <ul>
                     <li className="name">{this.props.shortName}</li>
-                    <li><img src={this.props.image} alt="logo" className="image" /></li>
+                    <li className="image-li"><img src={this.props.image} alt="logo" className="image" /></li>
                     <li > Stade : {this.props.stade}</li>
                     <li>Address : {this.props.address}</li>
                     <li>Email : {this.props.email}</li>
